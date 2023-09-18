@@ -7,16 +7,7 @@ def Get_song():
     # print(response)
     #
 
-    # url = "https://shazam.p.rapidapi.com/auto-complete"
-    # querystring = {"term": "kiss the", "locale": "en-US"}
-    # headers = {
-    #     'x-rapidapi-key': "2b5b3f1915msh25cfe548727c38dp165370jsn2c747e1c8261",
-    #     'x-rapidapi-host': "shazam.p.rapidapi.com"
-    # }
-    # response = requests.request("GET", url, headers=headers, params=querystring)
-    # print(response.text)
-    # quit()
-
+    # Rapid key api
 
     url = "https://shazam.p.rapidapi.com/songs/detect"
 
